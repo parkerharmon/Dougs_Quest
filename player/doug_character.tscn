@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://bn572vdr4pxq0"]
+
+[ext_resource type="Script" path="res://player/doug_character.gd" id="1_4druo"]
+[ext_resource type="Texture2D" uid="uid://bchlgskjyukh2" path="res://player/Douglas_Place_Holder.png" id="1_fdy7i"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gtvcq"]
+size = Vector2(64, 64)
+
+[node name="Doug_Character" type="CharacterBody2D"]
+script = ExtResource("1_4druo")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_fdy7i")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_gtvcq")
