@@ -1,0 +1,1 @@
+All art such as character sprite sheets, item, and tilemaps will be located here

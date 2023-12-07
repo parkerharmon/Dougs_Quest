@@ -1,0 +1,1 @@
+Any class that has functions that can be used in many others will be located here.
